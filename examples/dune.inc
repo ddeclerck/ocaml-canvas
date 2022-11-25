@@ -222,3 +222,11 @@
  (modules demo6)
  (libraries ocaml-canvas react))
 
+
+(executable
+ (name demo)
+ (public_name ocaml-canvas-demo)
+ (modes byte_complete native js)
+ (modules demo)
+ (libraries ocaml-canvas react))
+
